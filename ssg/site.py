@@ -25,7 +25,6 @@ class Site:
             self.error(
                 "No parser for the `{}` extension, file skipped!".format(path.suffix)
             )
-            print("Not Implemented Yet.")    
 
 
     def build(self):
